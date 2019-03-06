@@ -1,0 +1,10 @@
+{
+  "name": "technical-challenges",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Léo Le Bras <leolebras@wino.fr>  (https://github.com/LeoLeBras/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winoteam/technical-challenges.git"
+  }
+}
