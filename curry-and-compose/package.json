@@ -1,0 +1,20 @@
+{
+  "name": "curry-and-compose",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Léo Le Bras <leolebras@wino.fr> (https://github.com/LeoLeBras/)",
+  "scripts": {
+    "format": "prettier --write '**/*.{ts,js}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winoteam/technical-challenges.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "jest": "^24.1.0",
+    "prettier": "1.16.4",
+    "ts-jest": "^24.0.0",
+    "typescript": "2.9.2"
+  }
+}
