@@ -1,3 +1,3 @@
-export default function curry() {
-  return void 0
+export default function curry(fn: Function) {
+  return fn
 }

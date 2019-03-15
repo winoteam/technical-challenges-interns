@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "author": "Léo Le Bras <leolebras@wino.fr> (https://github.com/LeoLeBras/)",
   "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest --colors --coverage",
     "format": "prettier --write '**/*.{ts,js}'"
   },
   "repository": {
@@ -16,5 +18,12 @@
     "prettier": "1.16.4",
     "ts-jest": "^24.0.0",
     "typescript": "2.9.2"
+  },
+  "dependencies": {
+    "@types/async": "^2.4.1",
+    "@types/graphql": "^14.0.7",
+    "@types/isomorphic-fetch": "^0.0.35",
+    "polished": "^3.0.3",
+    "ts-node": "^8.0.3"
   }
 }

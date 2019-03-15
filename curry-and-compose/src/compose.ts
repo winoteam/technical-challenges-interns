@@ -1,3 +1,4 @@
-export default function compose() {
-  return void 0
+export default function compose(fn?: Function) {
+  if (!fn) throw Error('At least one argument must be provided')
+  return fn()
 }
