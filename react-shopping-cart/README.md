@@ -38,9 +38,9 @@ Rien n'a encore été dynamiser dans l'interface, vous aurez donc l'objectif de 
 
 * L'équipe technique suit une **logique de développement `cross-platform`**. En effet, Wino propose à ses clients des outils pour différentes plateformes : iOS, Mac, Windows ... De ce fait, le développement technique de chaque fonctionnalité doit être réfléchi pour pouvoir être un maximum partagé entre chaque codebase.
 
-* **La gestion comptable** est un élément clé des produits Wino. Cela représente un enjeu technique majeur car cela nécessite une **rigeuur extrême** dans le développement de services de calculs de données comptables. Aucune erreur n'est permise. Pour parvenir à cela, l'équipe Wino a mis en place un ensemble de procédure et défini des bonnes pratiques complète.
+* **La gestion comptable** est un élément clé des produits Wino. Cela représente un enjeu technique majeur car cela nécessite une **rigeuur extrême** dans le développement de services de calculs de données comptables. Aucune erreur n'est permise. Pour parvenir à cela, l'équipe Wino a mis en place un ensemble de procédures et défini des bonnes pratiques complète.
 
-* Afin de faciliter le développement technique de nos produits, nous nous basons sur la librairie **`Polaris` de Shopify** pour la création d'interface utilisateur pour la plateforme web. Toute la documuentation est accessible à l'adresse suivante : [polaris.shopify.com](https://polaris.shopify.com).
+* Afin de faciliter le développement technique de nos produits, nous nous basons sur la librairie **`Polaris` de Shopify** pour la création d'interface utilisateur web. Toute la documuentation est accessible à l'adresse suivante : [polaris.shopify.com](https://polaris.shopify.com).
 
 * **L'application a été initialisé avec [`Typescript`](https://www.typescriptlang.org/).** Cela permet de typer le code Javascript écrit pour ainsi le rendre plus sur.
 
