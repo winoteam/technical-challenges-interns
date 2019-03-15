@@ -1,6 +1,6 @@
 # react-shopping-cart
 
-![supermaket](https://i.giphy.com/media/EkMNtR2qKc5zO/giphy.webp)
+![](https://i.giphy.com/media/fyWfYThjb0Mpy/giphy.webp)
 
 ---
 
