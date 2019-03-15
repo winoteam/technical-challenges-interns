@@ -14,7 +14,7 @@ add(2, mult(3, 5))
 
 > This is a form of function composition since this is the result of the multiplication that is passed to the add function. Let's go a step further and see another case where function composition can be very useful.
 
-Contrairement à ce qui a été écrit précédemment, on va préférer l'écrire suivante :
+Contrairement à ce qui a été écrit précédemment, on va préférer l'écrire de la manière suivante :
 
 ```js
 const add = (a, b) => a + b;
@@ -26,7 +26,7 @@ pipe(
 )(5)
 ```
 
-La fonction `pipe` nous permet d'écire un code bien plus lisible. Prenons un autre exemple :
+La fonction `pipe` permet d'écrire un code bien plus lisible. Prenons un autre exemple :
 
 Au lieu d'écrire cela :
 
@@ -57,7 +57,7 @@ const color = tone('#ccc')
 
 L'objectif de ce test va être de réécrire la fonction `pipe` et d'introduire une deuxième fonction cachée `curry`.
 
-Chaque fonction fait en réalité quelques lignes, tout la complexité de ce test réside dans la compréhension de l'abstraction offerte par ces deux fonctions.
+Chaque fonction fait en réalité quelques lignes. Toute la complexité de ce test réside dans la compréhension de l'abstraction offerte par ces deux fonctions.
 
 Une version simplifiée de la fonction `pipe` s'écrit de la façon suivante :
 ```js
