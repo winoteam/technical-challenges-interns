@@ -54,5 +54,5 @@ const color = tone('#ccc')
 ```
 
 L'objectif de ce test va être de réécrire la fonction `compose` et d'introduire une deuxième fonction cachée `curry`.
-Chaque fonction fait quelques lignes, tout la complexité de ce test réside dans la compréhension de l'abstraction offerte par ses deux fonctions.
-s
+
+Chaque fonction fait en réalité quelques lignes, tout la complexité de ce test réside dans la compréhension de l'abstraction offerte par ses deux fonctions.
