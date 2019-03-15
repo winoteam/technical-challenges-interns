@@ -1,11 +1,11 @@
 {
-  "name": "curry-and-compose",
+  "name": "curry-and-pipe",
   "private": true,
   "version": "0.1.0",
   "author": "Léo Le Bras <leolebras@wino.fr> (https://github.com/LeoLeBras/)",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "test": "jest --colors --coverage",
+    "test": "jest",
     "format": "prettier --write '**/*.{ts,js}'"
   },
   "repository": {

@@ -1,4 +1,4 @@
-# curry-and-compose
+# curry-and-pipe
 
 (L'introduction suivante provient de l'article [use-function-composition-in-javascript](https://www.codementor.io/michelre/use-function-composition-in-javascript-gkmxos5mj))
 
@@ -17,14 +17,14 @@ Contrairement à ce qui a été écrit précédemment, on va préférer l'écrir
 ```js
 const add = (a, b) => a + b;
 const mult = (a, b) => a * b;
-compose(
+pipe(
   add(2),
   mult(3),
   // ... it's easier that way :)
 )(5)
 ```
 
-La function `compose` nous permet d'écire un code bien plus lisible. Prenons un autre exemple :
+La function `pipe` nous permet d'écire un code bien plus lisible. Prenons un autre exemple :
 
 Au lieu d'écrire cela :
 
@@ -35,7 +35,7 @@ const color = lighten(0.2, saturate(0.4, darken(0.6, '#ccc')))
 Il est préférable d'avoir un code prenant la forme suivante :
 
 ```js
-const color = compose(
+const color = pipe(
   lighten(0.2),
   saturate(0.4),
   darken(0.6),
@@ -45,7 +45,7 @@ const color = compose(
 Ou mieux encore :
 
 ```js
-const tone = compose(
+const tone = pipe(
   lighten(0.2),
   saturate(0.4),
   darken(0.6),
@@ -53,6 +53,12 @@ const tone = compose(
 const color = tone('#ccc')
 ```
 
-L'objectif de ce test va être de réécrire la fonction `compose` et d'introduire une deuxième fonction cachée `curry`.
+L'objectif de ce test va être de réécrire la fonction `pipe` et d'introduire une deuxième fonction cachée `curry`.
 
 Chaque fonction fait en réalité quelques lignes, tout la complexité de ce test réside dans la compréhension de l'abstraction offerte par ses deux fonctions.
+
+Une version simplifié de la fonction `pipe` s'écrit de la forme suivante :
+```js
+const pipe = (f, g) => x => f(g(x));
+pipe(f, g)(1)
+```
