@@ -13,7 +13,7 @@ Nous recrutons à tous les niveaux chez Wino, en particulier des profils techniq
 
 2. Montrez-nous ce que vous pouvez construire (2 - 4 heures)
 * Selon le poste pour lequelle vous avez postulé, on vous demandera de travailler sur un défi technique. **Cela nous permettra d'évaluer vos aptitudes techniques et votre capacité à résoudre un problème logique** :
-  * [`curry-and-compose`](curry-and-compose)
+  * [`curry-and-pipe`](curry-and-pipe)
 * Le test se fera avec un des développeurs de l'équipe, Arnaud ou Léo. L'objectif premier ne sera pas la résolution du problème donné mais bien de nous montrer votre méthodologie de travail : 
   * comment faites-vous face à un problème algorithmique ?
   * quelle est votre aptitude à travailler dans une situation de *pair-programming* ?
