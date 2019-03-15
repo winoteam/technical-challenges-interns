@@ -16,7 +16,7 @@ Nous recrutons à tous les niveaux chez Wino, en particulier des profils techniq
   * [`curry-and-compose`](curry-and-compose)
 * Le test se fera avec un des développeurs de l'équipe, Arnaud ou Léo. L'objectif premier ne sera pas la résolution du problème donné mais bien de nous montrer votre méthodologie de travail : 
   * comment faites-vous face à un problème algorithmique ?
-  * quelle est votre aptitude à travailler dans une situation de `pair-programming` ?
+  * quelle est votre aptitude à travailler dans une situation de *pair-programming* ?
 
 3. Réalisation de tests techniques
 * Chaque poste requiert des compétence techniques très spécifiques, nous vous proposerons donc de réaliser des tests techniques plus complets. 
