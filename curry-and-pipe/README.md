@@ -57,9 +57,9 @@ const color = tone('#ccc')
 
 L'objectif de ce test va être de réécrire la fonction `pipe` et d'introduire une deuxième fonction cachée `curry`.
 
-Chaque fonction fait en réalité quelques lignes, tout la complexité de ce test réside dans la compréhension de l'abstraction offerte par ses deux fonctions.
+Chaque fonction fait en réalité quelques lignes, tout la complexité de ce test réside dans la compréhension de l'abstraction offerte par ces deux fonctions.
 
-Une version simplifié de la fonction `pipe` s'écrit de la façon suivante :
+Une version simplifiée de la fonction `pipe` s'écrit de la façon suivante :
 ```js
 const pipe = (f, g) => x => f(g(x));
 pipe(f, g)(1)
