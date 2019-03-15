@@ -32,6 +32,6 @@ Nous recrutons à tous les niveaux chez Wino, en particulier des profils techniq
 5. Rencontre avec les autres membres de l'équipe
 * Un petit déjeuner sera organisé pour que toute l'équipe puisse faire votre connaissance. 🎊
 
-## Ressouurces externes
+## Ressources externes
 
 * [How Artsy Hires Engineers](http://artsy.github.io/blog/2019/01/23/artsy-engineering-hiring/)
