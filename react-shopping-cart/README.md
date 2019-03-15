@@ -27,8 +27,8 @@ L'objectif de ce test est de recréer un système de panier comme l'on trouve su
 
 Rien n'a encore été dynamisé dans l'interface, vous aurez donc l'objectif de :
 * [ ] permettre l'ajout d'un produit au panier
-* [ ] permettre la suppresion d'un produit présent dans le panier
-* [ ] calculer automatique le montant total du panier ainsi que les différentes TVA
+* [ ] permettre la suppression d'un produit présent dans le panier
+* [ ] calculer automatiquement le montant total du panier ainsi que les différentes TVA
 * [ ] [ajouter un système de recherche dans les produits du catalogue](https://polaris.shopify.com/components/lists-and-tables/resource-list#all-examples)
 * [ ] [et ajouter des fonctionnalités en plus de votre choix](#user-content-les-plus)
 
