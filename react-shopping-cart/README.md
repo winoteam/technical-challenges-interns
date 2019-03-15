@@ -1,6 +1,6 @@
 # react-shopping-cart
 
-![supermaket](https://media.giphy.com/media/gNYqfbMtGtnNK/200w_s.gif)
+![supermaket](https://i.giphy.com/media/EkMNtR2qKc5zO/giphy.webp)
 
 ---
 
@@ -30,7 +30,7 @@ Rien n'a encore été dynamiser dans l'interface, vous aurez donc l'objectif de 
 * [ ] permettre la suppresion d'un produit présent dans le panier
 * [ ] calculer automatique le montant total du panier ainsi que les différentes TVA
 * [ ] [ajouter un système de recherche dans les produits du catalogue](https://polaris.shopify.com/components/lists-and-tables/resource-list#all-examples)
-* [ ] et d'ajouter des fonctionnalités en plus de votre choix
+* [ ] [et d'ajouter des fonctionnalités en plus de votre choix](#user-content-les-plus)
 
 ## Documentation
 
@@ -62,10 +62,10 @@ Rien n'a encore été dynamiser dans l'interface, vous aurez donc l'objectif de 
 ## Les plus
 
 Une fois avec répondu avec soin aux objectifs de bases de l'exercice, vous pourrez effectuer quelques améliorations supplémentaires, quelques idées :
-* Gérer un système de devise (€, $ ...)
-* Transformer le code en ReasonML pour avoir une codebase plus sur
-* Ajouter un système de remise
-* Créer un système de cache pour que les paniers ne soient pas perdus même après rafraichissement de la page
-* Relier l'application à une API externe qui retourne des produits au format JSON
-* Ajouter un système de paiement
+* Gérer un système de devise (€, $ ...) 💰
+* Transformer le code en [`ReasonML`](https://reasonml.github.io) pour avoir une codebase plus sur 🔒
+* Ajouter un système de remise 💳
+* Créer un système de cache pour que les paniers ne soient pas perdus même après rafraichissement de la page 💾
+* Relier l'application à une API externe qui retourne des produits au format JSON 🌍
+* Ajouter un système de paiement 💸
 * ...
