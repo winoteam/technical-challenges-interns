@@ -1,6 +1,6 @@
 # curry-and-compose
 
-(L'introduction suivante provient de l'article [https://www.codementor.io/michelre/use-function-composition-in-javascript-gkmxos5mj](use-function-composition-in-javascript) )
+(L'introduction suivante provient de l'article [use-function-composition-in-javascript](https://www.codementor.io/michelre/use-function-composition-in-javascript-gkmxos5mj))
 
 > Function composition is a mechanism of combining multiple simple functions to build a more complicated one. The result of each function is passed to the next one. In mathematics, we often write something like: f(g(x)). So this is the result of g(x) that is passed to f. In programing we can achieved the composition by writing something similar. Let's take a quick example. Suppose I need to make some arithmetic by doing the following operation: 2 + 3 * 5. As you may know, the multiplication has the priority over the addition. So you start by calculating 3 * 5 and then when add 2 to the result. Let's write this in JavaScript. The primary and certainly the most simple approach could be:
 
@@ -39,7 +39,7 @@ const color = compose(
   lighten(0.2),
   saturate(0.4),
   darken(0.6),
-)('#ccc)
+)('#ccc')
 ```
 
 Ou mieux encore :
@@ -50,7 +50,7 @@ const tone = compose(
   saturate(0.4),
   darken(0.6),
 )
-const color = tone('#ccc)
+const color = tone('#ccc')
 ```
 
 L'objectif de ce test va être de réécrire la fonction `compose` et d'introduire une deuxième fonction cachée `curry`.
