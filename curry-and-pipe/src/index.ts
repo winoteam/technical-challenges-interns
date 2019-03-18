@@ -31,7 +31,7 @@ console.log({ colorA, colorB })
 //     init, //5
 //     add1, //6
 //     add4, //10
-//   )(),
+//   ),
 // )
 
 // Step 4: Use pipe and double functions
@@ -44,7 +44,7 @@ console.log({ colorA, colorB })
 //     start(5), //5
 //     add(1), //6
 //     add(4), //10
-//   )(),
+//   ),
 // )
 
 // Step 5: Use pipe and double functions to enjoy a mind-blowing experience
