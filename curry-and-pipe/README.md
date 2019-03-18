@@ -68,11 +68,11 @@ pipe(f, g)(1)
 Pour démarrer le test, on créé 3 fonctions `start`, `add2` et `add3`. La fonction `pipe` va appeler une à une chacune des fonctions avec le résultat précédent :
 
 ```js
-const start = a => a
+const start5 = () => 5
 const add2 = a => a + 2
 const add3 = a => a + 3
 
-const result = pipe(start, add2, add3)
+const result = pipe(start5, add2, add3)
 console.log(result) // 10
 ```
 
