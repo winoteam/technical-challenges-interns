@@ -13,11 +13,11 @@ Les équipes de Wino font face à plusieurs défis techniques, l'un deux concern
 Le schéma suivant présente l'interconnexion entre deux appareils du point de vente d'un commerçant par l'intermédiaire d'un serveur :
 
 ```
-_________________                   ________________                    ________________ 
-|               |                   |               |                   |               |
-|    Device A   |  <  PULL/PUSH  >  |    SERVER     |  <  PULL/PUSH  >  |    Device B   |
-| with local DB | (synchronisation) | with local DB | (synchronisation) | with local DB |
-|_______________|                   |_______________|                   |_______________|
+_________________                   _________________                    ________________ 
+|               |                   |                |                   |               |
+|    Device A   |  <  PULL/PUSH  >  |     SERVER     |  <  PULL/PUSH  >  |    Device B   |
+| with local DB | (synchronisation) | with remote DB | (synchronisation) | with local DB |
+|_______________|                   |________________|                   |_______________|
 
 ```
 
