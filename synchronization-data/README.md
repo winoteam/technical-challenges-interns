@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Les équipes de Wino font face à plusieurs défis techniques, l'un deux concerne la synchronisation des données entre l'application offline installée sur les iPads et le tableau de bord. Ce test va vous permettre d'avoir un petit apperçu de l'enjeu technique que cela représente pour les développeurs de l'équipe.
+Les équipes de Wino font face à plusieurs défis techniques, l'un deux concerne la synchronisation des données entre l'application offline installée sur les iPads et le tableau de bord. Ce test va vous permettre d'avoir un aperçu de l'enjeu technique que cela représente.
 
 ## Explication
 
@@ -27,11 +27,11 @@ Dans le cas présenté ci-dessus, le point de vente du commerçant possède deux
 * `Device A`
 * `Device B`
 
-Par défaut, les *devices* sont isolés mais peuvent être connectés entre eux par l'intermédiaire d'un serveur qui gère le processus de synchronsation des données (pour l'échange et la récupération de données). Le transfert des données fonctionne à la manière de [`git`](https://git-scm.com/), avec des méthodes de *pull* et de *push* de données ainsi qu'un système interne de [`diff`](https://en.wikipedia.org/wiki/Data_differencing). Le fonctionnemnt est le suivant :
-* Le `Device A` créé un produit `Crozes Hermitage`
+Par défaut, les *devices* sont isolés mais peuvent être connectés entre eux par l'intermédiaire d'un serveur qui gère le processus de synchronsation des données (pour l'échange et la récupération de données). Le transfert des données fonctionne à la manière de [`git`](https://git-scm.com/), avec des méthodes de *pull* et de *push* de données ainsi qu'un système interne de [`diff`](https://en.wikipedia.org/wiki/Data_differencing). Le fonctionnement est le suivant :
+* Le `Device A` crée un produit `Crozes Hermitage`
 * Le `Device A` lance une synchronisation des données :
   * Lors du `push`, le produit est envoyé au serveur.
-  * Lors du `pull`, rien ne se passe, aucuune donnée n'est à récupérer
+  * Lors du `pull`, rien ne se passe, aucune donnée n'est à récupérer.
 * Le `Device B` lance une synchronisation des données :
   * Lors du `push`, rien ne se passe, aucuune donnée n'est à envoyer au serveur.
   * Lors du `pull`, le produit `Crozes Hermitage` est récupéré.
@@ -90,7 +90,7 @@ const diff = createDiff(oldProduct, newProduct)
 
 ## Objectifs
 
-L'objectif de ce test consiste à la réalisation d'un système de diff en reprenant l'exemple présentée dans la section [Les enjeux](#les-enjeux). La création de deux méthodes sont attendues :
+L'objectif de ce test consiste à la réalisation d'un système de diff en reprenant l'exemple présenté dans la section [Les enjeux](#les-enjeux). La création de deux méthodes sont attendues :
 * `createDiff(remoteDatum: Datum, ...mutatedData: Datum[]): Diff` : permet de créer un diff entre la donnée inscrite en remote (la base de données du serveur) et les données envoyées depuis les différents appareils du point de vente. 
 * `applyDiff(datum: Datum, diff: Diff): Datum` : permet d'appliquer un *diff* sur une donnée.
 
@@ -132,7 +132,7 @@ Le résultat sorti par la fonction `createDiff` :
 }
 ```
 
-Tu es libre de choisir le format de l'objet retourné par la fonction `createDiff`, il doit être le plus simple, léger et scalable possibble.
+Tu es libre de choisir le format de l'objet retourné par la fonction `createDiff`, il doit être le plus simple, léger et scalable possible.
 
 ### `applyDiff`
 
@@ -164,7 +164,7 @@ console.log(finalProductA)
 ### Les contraintes
 
 * Le code écrit doit pouvoir être executé dans un environnement [`Node.js`](https://nodejs.org).
-* Tu es libre de t'inspirer des ressources que tu trouves sur le sujet pour parvenir à tes fins
-* Idéalement, le code écrit doit suivre les principes de *functional programming*
+* Tu es libre de t'inspirer des ressources que tu trouves sur le sujet pour parvenir à tes fins.
+* Idéalement, le code écrit doit suivre les principes de *functional programming*.
 
 Bon courage 🎊
