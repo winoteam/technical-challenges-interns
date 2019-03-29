@@ -132,7 +132,7 @@ Le résultat sorti par la fonction `createDiff` :
 }
 ```
 
-Tu es libre de choisir le format de l'objet retourné par la fonction `createDiff`, il doit être le plus simple, léger et scalable possible.
+Vous êtes libre de choisir le format de l'objet retourné par la fonction `createDiff`, il doit être le plus simple, léger et scalable possible.
 
 À noter également qu'il n'est pas nécessaire de gérer un système de diff avec des objets en profondeur (*deep*).
 
@@ -166,7 +166,9 @@ console.log(finalProductA)
 ### Les contraintes
 
 * Le code écrit doit pouvoir être executé dans un environnement [`Node.js`](https://nodejs.org).
-* Tu es libre de t'inspirer des ressources que tu trouves sur le sujet pour parvenir à tes fins.
+* Vous êtes libre de vous inspirer des ressources que tu trouves sur le sujet pour parvenir à tes fins.
 * Idéalement, le code écrit doit suivre les principes de *functional programming*.
+* Vous devrez écrire une documentation pour permettre à un autre développeur de comprendre votre code et l'algorithme que vous aurez écrit
+* La documentation devra également comporter une section présentant les limites actuelles de vos algorithmes
 
 Bon courage 🎊
