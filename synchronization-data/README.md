@@ -110,7 +110,7 @@ const diff = createDiff(
   },
   { // A local datum mutated at t+2 by another device
     name: 'Crozes Hermitage',
-    categories_ids: [1, 2, 4, 4],
+    categories_ids: [1, 2, 3, 4],
     archivedAt: null,
   },
 )
@@ -133,6 +133,8 @@ Le résultat sorti par la fonction `createDiff` :
 ```
 
 Tu es libre de choisir le format de l'objet retourné par la fonction `createDiff`, il doit être le plus simple, léger et scalable possible.
+
+À noter également qu'il n'est pas nécessaire de gérer un système de diff avec des objets en profondeur (*deep*).
 
 ### `applyDiff`
 
