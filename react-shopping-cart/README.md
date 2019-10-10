@@ -56,7 +56,7 @@ Rien n'a encore été dynamisé dans l'interface, vous aurez donc l'objectif de 
 
 * Javascript possède quelques "particularités" dans les calculs des décimales. La gestion des arrondis est un élément central à prendre en compte lors de manipulations numériques. En jetant un coup d'oeil à l'exemple suivant, on comprend immédiatement les problématiques que cela peut engendrer :
 ```
-> 0.1+0.2
+$ 0.1+0.2
 > 0.30000000000000004  🙃
 ```
 
