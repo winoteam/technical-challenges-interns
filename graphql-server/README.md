@@ -34,7 +34,7 @@ Retourne le résultats suivants :
 ```json
 {
   "data": {
-    "sales" [
+    "sales": [
       {
         "id:" 1,
         "name": "0001",
@@ -66,7 +66,7 @@ Retourne le résultat suivant :
 ```json
 {
   "data": {
-    "getSalesTotal" {
+    "getSalesTotal": {
       "amount": 19.81,
       "count": 2
     }
@@ -87,9 +87,9 @@ Retourne le résultat suivant :
 ```json
 {
   "data": {
-    "exportSales" [
+    "exportSales": {
       "filePath": "xx/xx/sales.xlsx"
-    ]
+    }
   }
 }
 ```
@@ -128,5 +128,5 @@ Une fois avoir répondu avec soin aux objectifs de base de l'exercice, vous pour
 
 * utiliser les bonnes pratiques pour gérer la [pagination avec GraphQL](http://graphql.github.io/learn/pagination/#pagination-and-edges) (avec les `edges` et les `nodes`).
 * ajouter des relations aux ventes comme des clients (=utilisateurs)
-* montrer de quoi vous êtes capables avec SQL (utilisez des `window` par exemple)
+* montrer de quoi vous êtes capables avec SQL (utilisez des `window functions` par exemple)
 
