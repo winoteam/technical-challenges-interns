@@ -36,12 +36,12 @@ Retourne le résultats suivants :
   "data": {
     "sales": [
       {
-        "id:" 1,
+        "id": 1,
         "name": "0001",
         "amount": 12.30
       },
       {
-        "id:" 2,
+        "id": 2,
         "name": "0002",
         "amount": 7.51
       }
