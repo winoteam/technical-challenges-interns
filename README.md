@@ -23,6 +23,7 @@ Nous recrutons à tous les niveaux chez Wino, en particulier des profils techniq
 3. Réalisation de tests techniques
 * Chaque poste requiert des compétence techniques très spécifiques, nous vous proposerons donc de réaliser des tests techniques plus complets. 
   * [`react-shopping-cart`](react-shopping-cart)
+  * [`graphql-server`](graphql-server)
   * [`synchronization-data`](synchronization-data)
 * Léo se chargera de valider ces tests et de revenir vers vous avec un ensemble de conseils.
 
