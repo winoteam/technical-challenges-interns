@@ -19,6 +19,22 @@ Ouvrir la page [`http://localhost:3000`](http://localhost:3000) pour voir l'appl
 
 La page se mettra à jour si vous faites une modification du code. Vous verrez également toutes les erreurs Eslint et Typescript dans la console.
 
+
+## Prérequis
+
+(choisir l'un des deux 😊)
+
+## Pour Javascript:
+
+1. [ReactJS with Hooks](https://reactjs.org/)
+2. [Ramda](https://ramdajs.com) (optionnel)
+3. [TypeScript](https://www.typescriptlang.org/)
+ 
+## Pour ReasonML:
+
+1. ReasonReact with Hooks (https://reasonml.github.io/reason-react/)
+2. BuckleScript Belt (https://bucklescript.github.io/bucklescript/api/Belt.html)
+
 ## Explication
 
 ![React Shopping Cart](public/demo.png)
@@ -31,7 +47,7 @@ Rien n'a encore été dynamisé dans l'interface, vous aurez donc l'objectif de 
 * [ ] calculer automatiquement le montant total du panier ainsi que les différentes TVA
 * [ ] [ajouter un système de recherche dans les produits du catalogue](https://polaris.shopify.com/components/lists-and-tables/resource-list#all-examples)
 * [ ] [et ajouter des fonctionnalités en plus de votre choix](#user-content-les-plus)
-* [ ] refactorer le code pour utiliser les hooks
+* [ ] refactorer le code pour utiliser les hooks (optionnel mais conseillé)
 
 ## Documentation
 
