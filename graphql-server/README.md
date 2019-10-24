@@ -18,7 +18,7 @@
 
 L'objectif de ce test est de recréer un micro serveur GraphQL qui permet deux choses :
 
-1. **récupérer une liste de ventes depuis une base de données PostgreSQL par l'intermédiaire d'une [`query`](https://graphql.org/learn/queries/) GraphQL** :
+1. **récupérer une liste de ventes depuis une base de données PostgreSQL par l'intermédiaire d'une [`query`](https://graphql.org/learn/queries/) GraphQL**
 
 La query suivante :
 
@@ -73,7 +73,7 @@ Retourne le résultat suivant :
 }
 ```
 
-3. **retourner le lien d'un fichier `.xlsx` générer le serveur qui contient les ventes de la base de données:**
+3. **retourner le lien d'un fichier `.xlsx` générer le serveur qui contient les ventes de la base de données**
 
 La query suivante :
 
@@ -110,7 +110,7 @@ Exemple :
 
 ### Quelques points à prendre en compte
 
-* L'équipe technique suit les principes de *functional programming* pour développer ses services, vous devez suivre des principes de programmation.
+* L'équipe technique suit les principes de *functional programming* pour développer ses services, vous devez suivre ces principes de programmation.
 
 * **L'application doit être initialis avec [`Typescript`](https://www.typescriptlang.org/).** Cela permet de typer le code Javascript écrit pour ainsi le rendre plus sûr.
 
