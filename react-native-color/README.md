@@ -25,13 +25,13 @@ L'application se charge alors dans le simulateur.
 La page se mettra à jour si vous faites une modification du code.
 
 
-## Prérequis Javascript
+## Pré-requis Javascript
 
 Pour ce test, vous êtes libre de choisir vos technos supplémentaires, comme [`react-native-svg`](https://github.com/react-native-community/react-native-svg) par exemple.
 
 ## Explication
 
-Une fois l'appilcation lancée, vous arriverez sur cet écran :
+Une fois l'application lancée, vous arriverez sur cet écran :
 
 ![React Native Color](public/demo.png)
 
