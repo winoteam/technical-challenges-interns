@@ -14,8 +14,7 @@ Nous recrutons à tous les niveaux chez Wino, en particulier des profils techniq
 * Premier entretien téléphonique avec un associé de l'équipe ou rencontre en physique dans les locaux de l'entreprise. Vous échangerez avec Léo, le développeur de l'équipe. **Cela nous permettra de découvrir votre personnalité et de cerner vos motivations à venir travailler à nos côtés.**
 
 2. Montrez-nous ce que vous pouvez construire (2 - 4 heures)
-* Selon le poste pour lequel vous avez postulé, on vous demandera de travailler sur un défi technique. **Cela nous permettra d'évaluer vos aptitudes techniques et votre capacité à résoudre un problème logique** :
-  * [`curry-and-pipe`](curry-and-pipe)
+* Selon le poste pour lequel vous avez postulé, on vous demandera de travailler sur un défi technique. **Cela nous permettra d'évaluer vos aptitudes techniques et votre capacité à résoudre un problème logique**.
 * Le test se fera avec un des développeurs de l'équipe. L'objectif premier ne sera pas la résolution du problème donné mais bien de nous montrer votre méthodologie de travail : 
   * comment faites-vous face à un problème algorithmique ?
   * quelles sont vos aptitudes à travailler dans une situation de *pair-programming* ?
@@ -23,6 +22,7 @@ Nous recrutons à tous les niveaux chez Wino, en particulier des profils techniq
 3. Réalisation de tests techniques
 * Chaque poste requiert des compétence techniques très spécifiques, nous vous proposerons donc de réaliser des tests techniques plus complets. 
   * [`react-shopping-cart`](react-shopping-cart)
+  * [`react-native-color`](react-shopping-cart)
   * [`graphql-server`](graphql-server)
   * [`synchronization-data`](synchronization-data)
 * Léo se chargera de valider ces tests et de revenir vers vous avec un ensemble de conseils.
