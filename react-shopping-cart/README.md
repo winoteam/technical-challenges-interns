@@ -63,14 +63,14 @@ Rien n'a encore été dynamisé dans l'interface, vous aurez donc l'objectif de 
 
 ### Quelques astuces
 
-* Le calcul des TVA répond à l'application de formules mathémathiques simples. Vous trouverez des exemples en accédant au site suivant [calculertva.com/](http://www.calculertva.com/). Les quelques formules à connaître :
+* Le calcul des TVA répond à l'application de formules mathémathiques simples. Vous trouverez des exemples en accédant au site suivant [calculertva.com/](http://www.calculertva.com). Les quelques formules à connaître :
 ```
 [Montant HT] x (1 + ([Taux TVA] / 100))=[Montant TTC] 
 [Montant HT] x ([Taux TVA] / 100)=[Montant TVA] 
 [Montant TTC] / (1 + ([Taux TVA] / 100))=[Montant HT] 
 ```
 
-* Javascript possède quelques "particularités" dans les calculs des décimales. La gestion des arrondis est un élément central à prendre en compte lors de manipulations numériques. En jetant un coup d'oeil à l'exemple suivant, on comprend immédiatement les problématiques que cela peut engendrer :
+* [Javascript possède quelques "particularités" dans les calculs des décimales.](https://fr.wikipedia.org/wiki/IEEE_754) La gestion des arrondis est un élément central à prendre en compte lors de manipulations numériques. En jetant un coup d'oeil à l'exemple suivant, on comprend immédiatement les problématiques que cela peut engendrer :
 ```
 $ 0.1+0.2
 > 0.30000000000000004  🙃
