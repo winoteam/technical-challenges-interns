@@ -24,16 +24,16 @@ La page se mettra à jour si vous faites une modification du code. Vous verrez �
 
 (choisir l'un des deux 😊)
 
-## Pour Javascript:
+### Pour Javascript:
 
 1. [ReactJS with Hooks](https://reactjs.org/)
 2. [Ramda](https://ramdajs.com) (optionnel)
 3. [TypeScript](https://www.typescriptlang.org/)
  
-## Pour ReasonML:
+### Pour ReasonML:
 
-1. ReasonReact with Hooks (https://reasonml.github.io/reason-react/)
-2. BuckleScript Belt (https://bucklescript.github.io/bucklescript/api/Belt.html)
+1. [ReasonReact with Hooks](https://reasonml.github.io/reason-react/)
+2. [BuckleScript Belt](https://bucklescript.github.io/bucklescript/api/Belt.html)
 
 ## Explication
 
