@@ -18,7 +18,7 @@
 
 L'objectif de ce test est de recréer un micro serveur GraphQL qui permet deux choses :
 
-1. **récupérer une liste de ventes depuis une base de données PostgreSQL par l'intermédiaire d'une [`query`](https://graphql.org/learn/queries/) GraphQL**
+1. **Récupérer une liste de ventes depuis une base de données PostgreSQL par l'intermédiaire d'une [`query`](https://graphql.org/learn/queries/) GraphQL**
 
 La query suivante :
 
@@ -30,7 +30,7 @@ query sales(page: 1) {
 }
 ```
 
-Retourne le résultats suivants :
+Retourne le résultat suivant :
 ```json
 {
   "data": {
@@ -50,7 +50,7 @@ Retourne le résultats suivants :
 }
 ```
 
-2. **créer une query qui retourne le montant total des ventes**
+2. **Créer une query qui retourne le montant total des ventes**
 
 
 La query suivante :
@@ -94,7 +94,7 @@ Retourne le résultat suivant :
 }
 ```
 
-Le fichier `xx/xx/sales.xlsx` que vous allez générer par l'intermédiaire de votre API avec [`xlsx`](https://www.npmjs.com/package/xlsx) contient la liste des ventes par ordre chronologique. En plus de cela, le fichier contienda une ligne supplémetaire avec une cellule calculant de façon dynamique le total des ventes avec une formule Excel de type `SUM`.
+Le fichier `xx/xx/sales.xlsx` que vous allez générer par l'intermédiaire de votre API avec [`xlsx`](https://www.npmjs.com/package/xlsx) contient la liste des ventes par ordre chronologique. En plus de cela, le fichier contienda une ligne supplémentaire avec une cellule calculant de façon dynamique le total des ventes avec une formule Excel de type `SUM`.
 
 Exemple :
 
@@ -110,13 +110,13 @@ Exemple :
 
 ### Quelques points à prendre en compte
 
-* L'équipe technique suit les principes de *functional programming* pour développer ses services, vous devez suivre ces principes de programmation.
+* L'équipe technique suit les principes de *functional programming* pour développer ses services. Vous devez suivre ces principes de programmation.
 
 * **L'application doit être initialisée avec [`Typescript`](https://www.typescriptlang.org/).** Cela permet de typer le code Javascript écrit pour ainsi le rendre plus sûr.
 
 ### Quelques astuces
 
-* Javascript, comme d'autres languages, possède [quelques "particularités" dans la gestion des calculs décimaux](https://fr.wikipedia.org/wiki/IEEE_754). La gestion des arrondis est un élément central à prendre en compte lors de manipulations numériques. En jetant un coup d'oeil à l'exemple suivant, on comprend immédiatement les problématiques que cela peut engendrer :
+* Javascript, comme d'autres langages, possède [quelques "particularités" dans la gestion des calculs décimaux](https://fr.wikipedia.org/wiki/IEEE_754). La gestion des arrondis est un élément central à prendre en compte lors de manipulations numériques. En jetant un coup d'oeil à l'exemple suivant, on comprend immédiatement les problématiques que cela peut engendrer :
 ```
 $ 0.1+0.2
 > 0.30000000000000004  🙃
