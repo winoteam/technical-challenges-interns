@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeColor",
+  "name": "react-native-color",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,9 +7,11 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "flow": "flow"
   },
   "dependencies": {
+    "flow-bin": "0.105.0",
     "react": "16.9.0",
     "react-native": "0.61.2"
   },
