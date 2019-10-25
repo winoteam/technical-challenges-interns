@@ -31,6 +31,8 @@ Pour ce test, vous êtes libre de choisir vos technos supplémentaires, comme [`
 
 ## Explication
 
+Une fois l'appilcation lancée, vous arriverez sur cet écran :
+
 ![React Native Color](public/demo.png)
 
 L'objectif de ce test est de recréer un système de *color picker* pour React Native et de reproduire cette interface utilisée au sein de l'appliation Wino aujourd'hui :
