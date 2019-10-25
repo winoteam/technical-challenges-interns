@@ -73,7 +73,7 @@ Retourne le résultat suivant :
 }
 ```
 
-3. **retourner le lien d'un fichier `.xlsx` générer le serveur qui contient les ventes de la base de données**
+3. **retourner le lien d'un fichier `.xlsx` générer par le serveur qui contient les ventes de la base de données**
 
 La query suivante :
 
