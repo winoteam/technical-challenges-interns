@@ -112,7 +112,7 @@ Exemple :
 
 * L'équipe technique suit les principes de *functional programming* pour développer ses services, vous devez suivre ces principes de programmation.
 
-* **L'application doit être initialis avec [`Typescript`](https://www.typescriptlang.org/).** Cela permet de typer le code Javascript écrit pour ainsi le rendre plus sûr.
+* **L'application doit être initialisée avec [`Typescript`](https://www.typescriptlang.org/).** Cela permet de typer le code Javascript écrit pour ainsi le rendre plus sûr.
 
 ### Quelques astuces
 
