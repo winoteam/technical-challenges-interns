@@ -24,7 +24,6 @@ Nous recrutons à tous les niveaux chez Wino, en particulier des profils techniq
   * [`react-shopping-cart`](react-shopping-cart)
   * [`react-native-color`](react-native-color)
   * [`graphql-server`](graphql-server)
-  * [`synchronization-data`](synchronization-data)
 * Léo se chargera de valider ces tests et de revenir vers vous avec un ensemble de conseils.
 
 4. Rencontre avec deux fondateurs de l'équipe
