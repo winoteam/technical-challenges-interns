@@ -13,17 +13,17 @@
     "url": "git+https://github.com/winoteam/technical-challenges.git"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.9",
-    "jest": "^24.1.0",
+    "@types/jest": "24.0.9",
+    "jest": "24.1.0",
     "prettier": "1.16.4",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "24.0.0",
     "typescript": "2.9.2"
   },
   "dependencies": {
-    "@types/async": "^2.4.1",
-    "@types/graphql": "^14.0.7",
-    "@types/isomorphic-fetch": "^0.0.35",
-    "polished": "^3.0.3",
-    "ts-node": "^8.0.3"
+    "@types/async": "2.4.1",
+    "@types/graphql": "14.0.7",
+    "@types/isomorphic-fetch": "0.0.35",
+    "polished": "3.0.3",
+    "ts-node": "8.0.3"
   }
 }
