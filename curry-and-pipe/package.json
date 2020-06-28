@@ -24,6 +24,6 @@
     "@types/graphql": "14.0.7",
     "@types/isomorphic-fetch": "0.0.35",
     "polished": "3.0.3",
-    "ts-node": "8.0.3"
+    "ts-node": "8.10.2"
   }
 }
