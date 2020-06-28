@@ -69,9 +69,15 @@ console.log({ colorA, colorB })
 
 // Step 7: Explosion
 // console.log('\nExplosion')
-// const tone = pipe(
-//   curriedLighten(0.2),
-//   curriedDarken(0.2),
-// )
+// const tone = pipe(curriedLighten(0.2), curriedDarken(0.2))
 // const colorE = tone('#eee')
 // console.log({ colorE })
+
+// Step 8: Typed explosion
+// console.log('\nTyped explosion')
+// const typedTone = pipe(
+//  curriedLighten('0.2') // 'Error' ,
+//  curriedDarken(0.2)
+// );
+// const typedColor = typedTone('#eee')
+// console.log({ typedColor })
