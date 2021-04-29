@@ -24,16 +24,15 @@ La page se mettra à jour si vous faites une modification du code. Vous verrez �
 
 (choisir l'un des deux 😊)
 
-### Pour Javascript:
+### Pour Javascript/Typescript:
 
 1. [ReactJS with Hooks](https://reactjs.org/)
-2. [Ramda](https://ramdajs.com) (optionnel)
-3. [TypeScript](https://www.typescriptlang.org/)
+2. [TypeScript](https://www.typescriptlang.org/)
  
-### Pour ReasonML:
+### Pour ReScript:
 
-1. [ReasonReact with Hooks](https://reasonml.github.io/reason-react/)
-2. [BuckleScript Belt](https://bucklescript.github.io/bucklescript/api/Belt.html)
+1. [ReScript](https://rescript-lang.org/docs/manual/latest/introduction)
+2. [ReScriptReact](https://rescript-lang.org/docs/react/latest/introduction)
 
 ## Explication
 
@@ -46,8 +45,8 @@ Rien n'a encore été dynamisé dans l'interface, vous aurez donc l'objectif de 
 * [ ] permettre la suppression d'un produit présent dans le panier
 * [ ] calculer automatiquement le montant total du panier ainsi que les différentes TVA
 * [ ] [ajouter un système de recherche dans les produits du catalogue](https://polaris.shopify.com/components/lists-and-tables/resource-list#all-examples)
-* [ ] [et ajouter des fonctionnalités en plus de votre choix](#user-content-les-plus)
-* [ ] refactorer le code pour utiliser les hooks (optionnel mais conseillé)
+* [ ] [et ajouter des fonctionnalités en plus de votre choix](#user-content-les-plus) (optionnel)
+* [ ] refactorer le code pour utiliser les hooks (optionnel)
 
 ## Documentation
 
@@ -80,7 +79,7 @@ $ 0.1+0.2
 
 Une fois avoir répondu avec soin aux objectifs de base de l'exercice, vous pourrez effectuer quelques améliorations supplémentaires, quelques idées :
 * Gérer un système de devises (€, $ ...) 💰
-* Transformer le code en [`ReasonML`](https://reasonml.github.io) pour avoir une codebase plus secure
+* Transformer le code en [`ReScript`](http://rescript-lang.org) pour avoir une codebase plus secure
 * Ajouter un système de remise 💳
 * Créer un système de cache pour que les paniers ne soient pas perdus même après rafraichissement de la page 💾
 * Relier l'application à une API externe qui retourne des produits au format JSON 🌍
