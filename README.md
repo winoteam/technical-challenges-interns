@@ -1,6 +1,6 @@
 # technical-challenges
 
-![challenge-accepted](https://i.giphy.com/media/GgcusW5RLS9Nu/giphy.webp)
+![challenge-accepted](https://media.giphy.com/media/GgcusW5RLS9Nu/giphy.gif)
 
 Some technical challenges for interns and work-study students. 
 
