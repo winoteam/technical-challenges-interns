@@ -1,6 +1,6 @@
 # react-shopping-cart
 
-![](https://media.giphy.com/media/WQ0xy5ZVOUjQxYMqqj/giphy.gif)
+![](https://i.giphy.com/media/fyWfYThjb0Mpy/giphy.gif)
 
 ---
 
