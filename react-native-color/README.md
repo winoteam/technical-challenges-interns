@@ -1,6 +1,6 @@
 # react-native-color
 
-![](https://i.giphy.com/media/zxxXYJqTlpBnO/giphy.webp)
+![](https://i.giphy.com/media/zxxXYJqTlpBnO/giphy.gif)
 
 ---
 
