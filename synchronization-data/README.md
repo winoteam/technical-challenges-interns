@@ -1,6 +1,6 @@
 # synchronization-data
 
-![supermaket](https://i.giphy.com/media/uzglgIsyY1Cgg/giphy.webp)
+![cat](https://media3.giphy.com/media/uzglgIsyY1Cgg/giphy.gif)
 
 ---
 
