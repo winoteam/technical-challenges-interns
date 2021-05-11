@@ -1,6 +1,6 @@
 # curry-and-pipe
 
-![Mind blowing](https://i.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.webp)
+![Mind blowing](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
 
 (L'introduction suivante provient de l'article [use-function-composition-in-javascript](https://www.codementor.io/michelre/use-function-composition-in-javascript-gkmxos5mj))
 
