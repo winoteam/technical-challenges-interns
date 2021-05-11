@@ -1,6 +1,6 @@
 # graphql-server
 
-![](https://i.giphy.com/media/l1IY5NRhxdCJYxsmA/giphy.webp)
+![](https://i.giphy.com/media/l1IY5NRhxdCJYxsmA/giphy.gif)
 
 ---
 
