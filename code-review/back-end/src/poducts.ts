@@ -1,6 +1,9 @@
 // @ts-ignore knex is not typed
 import knex from 'knex'
 
+// @ts-ignore
+import { apiPassword } from './config'
+
 let db = knex({
     client: 'postgresql',
     connection: {
@@ -11,7 +14,7 @@ let db = knex({
         // @ts-ignore process is not typed
         user: process.env.user,
         // @ts-ignore process is not typed
-        password: process.env.password
+        password: apiPassword
     }
 })
 
