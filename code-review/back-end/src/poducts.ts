@@ -41,3 +41,16 @@ export async function getProductsByIds(productsIds: string[]): Promise<Record<st
         {},
     )
 }
+
+interface ProductCart {
+    id: string,
+    name: string,
+    user: string,
+    products: Product[]
+}
+
+type ProductCartProperty = 'id' | 'name' | 'user' | 'products'
+
+export function editCart(cart: ProductCart, property: ProductCartProperty, value: any) {
+    cart[property] = value
+}

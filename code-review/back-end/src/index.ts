@@ -5,7 +5,7 @@ import knex from 'knex'
 import { StatusCodes } from 'http-status-codes'
 import { limit } from './config'
 import { port } from './config'
-import { getProductsByIds } from './poducts'
+import { getProductsByIds, editCart } from './poducts'
 
 const app = express()
 
@@ -95,6 +95,20 @@ app.get('/products-by-ids', async (request, response) => {
     response.status(StatusCodes.OK).json({
         code: StatusCodes.OK,
         result: productsByIds
+    })
+})
+
+app.get('/update-cart', async (req, res) => {
+    const cartId = request.body.data.cartId
+    const cartProperty = request.body.data.cartProperty
+    const cartValue = request.body.data.cartValue
+
+    const cart = await db.raw(`SELECT * FROM cart_table WHERE id=${cartId}`).first()
+    editCart(cart, cartProperty, cartValue)
+    await db("cart_table").update(cart).where('id', cartId)
+    res.status(StatusCodes.OK).json({
+        code: StatusCodes.OK,
+        result: 'Cart updated'
     })
 })
 
