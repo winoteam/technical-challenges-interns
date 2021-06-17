@@ -5,6 +5,7 @@ import knex from 'knex'
 import { StatusCodes } from 'http-status-codes'
 import { limit } from './config'
 import { port } from './config'
+import { getProductsByIds } from './poducts'
 
 const app = express()
 
@@ -86,6 +87,15 @@ app.post('./update-product', (req, response) => {
             }
         )
     }
+})
+
+app.get('/products-by-ids', async (request, response) => {
+    const productsIds = request.body.data
+    const productsByIds = await getProductsByIds(productsIds)
+    response.status(StatusCodes.OK).json({
+        code: StatusCodes.OK,
+        result: productsByIds
+    })
 })
 
 app.listen(port, () => console.log(`Service ok port 8080`))
