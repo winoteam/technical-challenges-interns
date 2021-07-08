@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@shopify/polaris": "3.10.0",
+    "@shopify/polaris": "6.6.0",
     "@types/async": "2.4.1",
     "@types/graphql": "14.0.7",
     "@types/isomorphic-fetch": "0.0.35",
